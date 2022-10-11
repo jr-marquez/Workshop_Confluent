@@ -4,8 +4,8 @@ var producer = new Kafka.Producer({
     'metadata.broker.list': 'pkc-pgq85.us-west-2.aws.confluent.cloud:9092',
     'sasl.mechanisms': 'PLAIN',
     'security.protocol': 'SASL_SSL',
-    'sasl.username': 'TINC3SZBSQGKU5I5',
-    'sasl.password': 't3tMLdmD12TVtWS5whPdoB6hhm9YCEQyT01wa7Xce7RadbIwgyUrHp1FZ9yG3GY9',
+    'sasl.username': 'P4P5BGIO2JZMNXP5',
+    'sasl.password': 'RCDbhhDk4I3s9iRAG2Jx/hpCFHQbkdWgwS/GbMQMG31TAdHO2L1K+q7c4RUU+5Sy',
      // 'ssl.ca.location': '/usr/local/etc/openssl/cert.pem', // varies by distro
     'plugin.library.paths': 'monitoring-interceptor',
     // .... additional configuration settings
@@ -15,8 +15,8 @@ var consumer = Kafka.KafkaConsumer.createReadStream({
     'metadata.broker.list': 'pkc-pgq85.us-west-2.aws.confluent.cloud:9092',
     'sasl.mechanisms': 'PLAIN',
     'security.protocol': 'SASL_SSL',
-    'sasl.username': 'TINC3SZBSQGKU5I5',
-    'sasl.password': 't3tMLdmD12TVtWS5whPdoB6hhm9YCEQyT01wa7Xce7RadbIwgyUrHp1FZ9yG3GY9',
+    'sasl.username': 'P4P5BGIO2JZMNXP5',
+    'sasl.password': 'RCDbhhDk4I3s9iRAG2Jx/hpCFHQbkdWgwS/GbMQMG31TAdHO2L1K+q7c4RUU+5Sy',
      // 'ssl.ca.location': '/usr/local/etc/openssl/cert.pem', // varies by distro
     'plugin.library.paths': 'monitoring-interceptor',
     // .... additional configuration settings

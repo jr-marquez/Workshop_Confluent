@@ -10,11 +10,11 @@ props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "pkc-pgq85.us-west-2.aws.conf
 props.put(ProducerConfig.REPLICATION_FACTOR_CONFIG, 3);
 props.put(ProducerConfig.SECURITY_PROTOCOL_CONFIG, "SASL_SSL");
 props.put(SaslConfigs.SASL_MECHANISM, "PLAIN");
-props.put(SaslConfigs.SASL_JAAS_CONFIG, "org.apache.kafka.common.security.plain.PlainLoginModule required username='TINC3SZBSQGKU5I5' password='t3tMLdmD12TVtWS5whPdoB6hhm9YCEQyT01wa7Xce7RadbIwgyUrHp1FZ9yG3GY9';");
+props.put(SaslConfigs.SASL_JAAS_CONFIG, "org.apache.kafka.common.security.plain.PlainLoginModule required username='P4P5BGIO2JZMNXP5' password='RCDbhhDk4I3s9iRAG2Jx/hpCFHQbkdWgwS/GbMQMG31TAdHO2L1K+q7c4RUU+5Sy';");
 
 // Confluent Schema Registry for Java
 props.put("basic.auth.credentials.source", "USER_INFO");
-props.put("schema.registry.basic.auth.user.info", "26FK5TMVYSUVS5TV:91APaDPtofVw9FK3pGr/BagVuMdwoqxTHICMNI68UnvsgZSM/jN+JKDQsbxmtS0V");
+props.put("schema.registry.basic.auth.user.info", "2PTXKAPUXLEYO65J:ryI+cliuYoZUwoL01gTQt99vFfIGfmjdkYlwBiB4qUyKEg18/W7RDdA0Qqp32mcz");
 props.put("schema.registry.url", "https://psrc-6zww3.us-east-2.aws.confluent.cloud");
 
 // Optimize Performance for Confluent Cloud
@@ -28,11 +28,11 @@ props.put(ProducerConfig.INTERCEPTOR_CLASSES_CONFIG, "io.confluent.monitoring.cl
 props.put(ProducerConfig.INTERCEPTOR_CLASSES_CONFIG + ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, confluent.monitoring.interceptor.bootstrap.servers, "pkc-pgq85.us-west-2.aws.confluent.cloud:9092");
 props.put(ProducerConfig.INTERCEPTOR_CLASSES_CONFIG + ProducerConfig.SECURITY_PROTOCOL_CONFIG, "SASL_SSL");
 props.put(ProducerConfig.INTERCEPTOR_CLASSES_CONFIG + SaslConfigs.SASL_MECHANISM, "PLAIN");
-props.put(ProducerConfig.INTERCEPTOR_CLASSES_CONFIG + SaslConfigs.SASL_JAAS_CONFIG, "org.apache.kafka.common.security.plain.PlainLoginModule required username='TINC3SZBSQGKU5I5' password='t3tMLdmD12TVtWS5whPdoB6hhm9YCEQyT01wa7Xce7RadbIwgyUrHp1FZ9yG3GY9';");
+props.put(ProducerConfig.INTERCEPTOR_CLASSES_CONFIG + SaslConfigs.SASL_JAAS_CONFIG, "org.apache.kafka.common.security.plain.PlainLoginModule required username='P4P5BGIO2JZMNXP5' password='RCDbhhDk4I3s9iRAG2Jx/hpCFHQbkdWgwS/GbMQMG31TAdHO2L1K+q7c4RUU+5Sy';");
 props.put(ConsumerConfig.INTERCEPTOR_CLASSES_CONFIG, "io.confluent.monitoring.clients.interceptor.MonitoringConsumerInterceptor");
 props.put(ConsumerConfig.INTERCEPTOR_CLASSES_CONFIG + ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, confluent.monitoring.interceptor.bootstrap.servers, "pkc-pgq85.us-west-2.aws.confluent.cloud:9092");
 props.put(ConsumerConfig.INTERCEPTOR_CLASSES_CONFIG + ProducerConfig.SECURITY_PROTOCOL_CONFIG, "SASL_SSL");
 props.put(ConsumerConfig.INTERCEPTOR_CLASSES_CONFIG + SaslConfigs.SASL_MECHANISM, "PLAIN");
-props.put(ConsumerConfig.INTERCEPTOR_CLASSES_CONFIG + SaslConfigs.SASL_JAAS_CONFIG, "org.apache.kafka.common.security.plain.PlainLoginModule required username='TINC3SZBSQGKU5I5' password='t3tMLdmD12TVtWS5whPdoB6hhm9YCEQyT01wa7Xce7RadbIwgyUrHp1FZ9yG3GY9';");
+props.put(ConsumerConfig.INTERCEPTOR_CLASSES_CONFIG + SaslConfigs.SASL_JAAS_CONFIG, "org.apache.kafka.common.security.plain.PlainLoginModule required username='P4P5BGIO2JZMNXP5' password='RCDbhhDk4I3s9iRAG2Jx/hpCFHQbkdWgwS/GbMQMG31TAdHO2L1K+q7c4RUU+5Sy';");
 
 // .... additional configuration settings

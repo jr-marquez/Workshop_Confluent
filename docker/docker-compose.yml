@@ -73,7 +73,7 @@ services:
     <<: *client-base
     command: >
       bash -c "mvn clean compile -f /tmp/java/
-      &&  mvn -q -f /tmp/java/pom.xml exec:java -Dexec.mainClass=\"io.confluent.examples.clients.cloud.ProducerExample\" -Dexec.args=\"/tmp/client.config demo-topic-1\""
+      &&  mvn -q -f /tmp/java/pom.xml exec:java -Dexec.mainClass=\"io.confluent.examples.clients.cloud.ProducerExample\" -Dexec.args=\"/tmp/client.config demo-topic-12\""
     <<: *cap-add
 
   consumer:
@@ -81,7 +81,7 @@ services:
     command: >
       bash -c "sleep 15 &&
       mvn compile -f /tmp/java/
-      &&  mvn -q -f /tmp/java/pom.xml exec:java -Dexec.mainClass=\"io.confluent.examples.clients.cloud.ConsumerExample\" -Dexec.args=\"/tmp/client.config demo-topic-1\""
+      &&  mvn -q -f /tmp/java/pom.xml exec:java -Dexec.mainClass=\"io.confluent.examples.clients.cloud.ConsumerExample\" -Dexec.args=\"/tmp/client.config demo-topic-12\""
     <<: *cap-add
 
   kafka-lag-exporter:

@@ -1,5 +1,5 @@
 // Confluent Schema Registry for Kafka connectors
 value.converter=io.confluent.connect.avro.AvroConverter
 value.converter.basic.auth.credentials.source=USER_INFO
-value.converter.schema.registry.basic.auth.user.info=26FK5TMVYSUVS5TV:91APaDPtofVw9FK3pGr/BagVuMdwoqxTHICMNI68UnvsgZSM/jN+JKDQsbxmtS0V
+value.converter.schema.registry.basic.auth.user.info=2PTXKAPUXLEYO65J:ryI+cliuYoZUwoL01gTQt99vFfIGfmjdkYlwBiB4qUyKEg18/W7RDdA0Qqp32mcz
 value.converter.schema.registry.url=https://psrc-6zww3.us-east-2.aws.confluent.cloud
