@@ -52,13 +52,6 @@ function ccloud::prompt_continue_ccloud_demo() {
   echo "--------------------------------------------------------------------------------------------"
   echo
 
-  read -p "Do you still want to run this script? [y/n] " -n 1 -r
-  echo
-  if [[ ! $REPLY =~ ^[Yy]$ ]]
-  then
-      exit 1
-  fi
-
   return 0
 }
 function ccloud::validate_expect_installed() {
