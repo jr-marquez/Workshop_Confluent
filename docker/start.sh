@@ -11,7 +11,7 @@ QUIET="${QUIET:-false}"
 source helper.sh
 source ccloud_library.sh
 #variables for environment creation
-source ../variables_ramon.env
+source variables.env
 
 check_jq \
   && print_pass "jq found"
