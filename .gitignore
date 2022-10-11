@@ -1,0 +1,36 @@
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+terraform
+terraform/aws/.terraform/plugins/darwin_amd64/terraform-provider-aws_v3.28.0_x5
+terraform/aws/.terraform/plugins/darwin_amd64/terraform-provider-template_v2.2.0_x4
+terraform/aws/terraform.tfstate
+terraform/aws/terraform.tfstate.backup
+variables_ramon.env
+terraform/aws/.terraform/providers/registry.terraform.io/hashicorp/aws/4.8.0/darwin_amd64/terraform-provider-aws_v4.8.0_x5
+terraform/aws/.terraform/providers/registry.terraform.io/hashicorp/template/2.2.0/darwin_amd64/terraform-provider-template_v2.2.0_x4
+terraform/aws/.terraform.lock.hcl
+docker/.env

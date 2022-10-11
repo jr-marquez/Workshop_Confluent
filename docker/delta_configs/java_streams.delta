@@ -1,0 +1,39 @@
+import java.util.Properties;
+import org.apache.kafka.clients.producer.ProducerConfig;
+import org.apache.kafka.clients.producer.ConsumerConfig;
+import org.apache.kafka.common.config.SaslConfigs;
+import org.apache.kafka.streams.StreamsConfig;
+
+Properties props = new Properties();
+
+// Basic Confluent Cloud Connectivity
+props.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, "pkc-pgq85.us-west-2.aws.confluent.cloud:9092");
+props.put(StreamsConfig.REPLICATION_FACTOR_CONFIG, 3);
+props.put(StreamsConfig.SECURITY_PROTOCOL_CONFIG, "SASL_SSL");
+props.put(SaslConfigs.SASL_MECHANISM, "PLAIN");
+props.put(SaslConfigs.SASL_JAAS_CONFIG, "org.apache.kafka.common.security.plain.PlainLoginModule required username='TINC3SZBSQGKU5I5' password='t3tMLdmD12TVtWS5whPdoB6hhm9YCEQyT01wa7Xce7RadbIwgyUrHp1FZ9yG3GY9';");
+
+// Confluent Schema Registry for Java
+props.put("basic.auth.credentials.source", "USER_INFO");
+props.put("schema.registry.basic.auth.user.info", "26FK5TMVYSUVS5TV:91APaDPtofVw9FK3pGr/BagVuMdwoqxTHICMNI68UnvsgZSM/jN+JKDQsbxmtS0V");
+props.put("schema.registry.url", "https://psrc-6zww3.us-east-2.aws.confluent.cloud");
+
+// Optimize Performance for Confluent Cloud
+props.put(StreamsConfig.producerPrefix(ProducerConfig.RETRIES_CONFIG), 2147483647);
+props.put("producer.confluent.batch.expiry.ms", 9223372036854775807);
+props.put(StreamsConfig.producerPrefix(ProducerConfig.REQUEST_TIMEOUT_MS_CONFIG), 300000);
+props.put(StreamsConfig.producerPrefix(ProducerConfig.MAX_BLOCK_MS_CONFIG), 9223372036854775807);
+
+// Required for Streams Monitoring in Confluent Control Center
+props.put(StreamsConfig.PRODUCER_PREFIX + ProducerConfig.INTERCEPTOR_CLASSES_CONFIG, "io.confluent.monitoring.clients.interceptor.MonitoringProducerInterceptor");
+props.put(StreamsConfig.PRODUCER_PREFIX + ProducerConfig.INTERCEPTOR_CLASSES_CONFIG + StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, confluent.monitoring.interceptor.bootstrap.servers, "pkc-pgq85.us-west-2.aws.confluent.cloud:9092");
+props.put(StreamsConfig.PRODUCER_PREFIX + ProducerConfig.INTERCEPTOR_CLASSES_CONFIG + StreamsConfig.SECURITY_PROTOCOL_CONFIG, "SASL_SSL");
+props.put(StreamsConfig.PRODUCER_PREFIX + ProducerConfig.INTERCEPTOR_CLASSES_CONFIG + SaslConfigs.SASL_MECHANISM, "PLAIN");
+props.put(StreamsConfig.PRODUCER_PREFIX + ProducerConfig.INTERCEPTOR_CLASSES_CONFIG + SaslConfigs.SASL_JAAS_CONFIG, "org.apache.kafka.common.security.plain.PlainLoginModule required username='TINC3SZBSQGKU5I5' password='t3tMLdmD12TVtWS5whPdoB6hhm9YCEQyT01wa7Xce7RadbIwgyUrHp1FZ9yG3GY9';");
+props.put(StreamsConfig.CONSUMER_PREFIX + ConsumerConfig.INTERCEPTOR_CLASSES_CONFIG, "io.confluent.monitoring.clients.interceptor.MonitoringConsumerInterceptor");
+props.put(StreamsConfig.CONSUMER_PREFIX + ConsumerConfig.INTERCEPTOR_CLASSES_CONFIG + StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, confluent.monitoring.interceptor.bootstrap.servers, "pkc-pgq85.us-west-2.aws.confluent.cloud:9092");
+props.put(StreamsConfig.CONSUMER_PREFIX + ConsumerConfig.INTERCEPTOR_CLASSES_CONFIG + StreamsConfig.SECURITY_PROTOCOL_CONFIG, "SASL_SSL");
+props.put(StreamsConfig.CONSUMER_PREFIX + ConsumerConfig.INTERCEPTOR_CLASSES_CONFIG + SaslConfigs.SASL_MECHANISM, "PLAIN");
+props.put(StreamsConfig.CONSUMER_PREFIX + ConsumerConfig.INTERCEPTOR_CLASSES_CONFIG + SaslConfigs.SASL_JAAS_CONFIG, "org.apache.kafka.common.security.plain.PlainLoginModule required username='TINC3SZBSQGKU5I5' password='t3tMLdmD12TVtWS5whPdoB6hhm9YCEQyT01wa7Xce7RadbIwgyUrHp1FZ9yG3GY9';");
+
+// .... additional configuration settings

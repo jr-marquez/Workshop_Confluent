@@ -1,0 +1,17 @@
+# --------------------------------------
+# Confluent Cloud connection information
+# --------------------------------------
+# ENVIRONMENT_ID=Now using "env-3818wm" as the default (active) environment.
+env-3818wm
+# SERVICE_ACCOUNT_ID=sa-xmgwrg
+# KAFKA_CLUSTER_ID=lkc-7y01m2
+# SCHEMA_REGISTRY_CLUSTER_ID=lsrc-mv0nxw
+# --------------------------------------
+sasl.mechanism=PLAIN
+security.protocol=SASL_SSL
+bootstrap.servers=pkc-pgq85.us-west-2.aws.confluent.cloud:9092
+sasl.jaas.config=org.apache.kafka.common.security.plain.PlainLoginModule required username='TINC3SZBSQGKU5I5' password='t3tMLdmD12TVtWS5whPdoB6hhm9YCEQyT01wa7Xce7RadbIwgyUrHp1FZ9yG3GY9';
+basic.auth.credentials.source=USER_INFO
+schema.registry.url=https://psrc-6zww3.us-east-2.aws.confluent.cloud
+basic.auth.user.info=26FK5TMVYSUVS5TV:91APaDPtofVw9FK3pGr/BagVuMdwoqxTHICMNI68UnvsgZSM/jN+JKDQsbxmtS0V
+replication.factor=3

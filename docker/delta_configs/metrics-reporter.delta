@@ -1,0 +1,6 @@
+metric.reporters=io.confluent.metrics.reporter.ConfluentMetricsReporter
+confluent.metrics.reporter.topic.replicas=3
+confluent.metrics.reporter.sasl.mechanism=PLAIN
+confluent.metrics.reporter.security.protocol=SASL_SSL
+confluent.metrics.reporter.bootstrap.servers=pkc-pgq85.us-west-2.aws.confluent.cloud:9092
+confluent.metrics.reporter.sasl.jaas.config=org.apache.kafka.common.security.plain.PlainLoginModule required username='TINC3SZBSQGKU5I5' password='t3tMLdmD12TVtWS5whPdoB6hhm9YCEQyT01wa7Xce7RadbIwgyUrHp1FZ9yG3GY9';
