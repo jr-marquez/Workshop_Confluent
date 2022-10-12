@@ -1,7 +1,0 @@
-kafkastore.env-3818wm
-kafkastore.sasl.mechanism=PLAIN
-kafkastore.security.protocol=SASL_SSL
-kafkastore.bootstrap.servers=pkc-pgq85.us-west-2.aws.confluent.cloud:9092
-kafkastore.sasl.jaas.config=org.apache.kafka.common.security.plain.PlainLoginModule required username='P4P5BGIO2JZMNXP5' password='RCDbhhDk4I3s9iRAG2Jx/hpCFHQbkdWgwS/GbMQMG31TAdHO2L1K+q7c4RUU+5Sy';
-kafkastore.basic.auth.user.info=2PTXKAPUXLEYO65J:ryI+cliuYoZUwoL01gTQt99vFfIGfmjdkYlwBiB4qUyKEg18/W7RDdA0Qqp32mcz
-kafkastore.replication.factor=3
