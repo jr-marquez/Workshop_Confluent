@@ -35,4 +35,9 @@ Creating prometheus                      ... done
 ====== Query metrics in Prometheus at http://localhost:9090 (verify targets are being scraped at http://localhost:9090/targets/, may take a few minutes to start up)
 
 ```
+If not please execute the following command:
+```bash
+./docker-compose up -d
+```
+
 continue with slides...
