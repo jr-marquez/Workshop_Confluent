@@ -1,43 +1,23 @@
+# Confluent Hands-on Workshop
+This github project describes a Hands-on Workshop around Confluent and Confluent Cloud. The structure of the Hands-on is as followed
+  * Explaining and Introduce 
+  * Labs: Get to know the environment and exercise 
 
-# Confluent Cloud Monitoring Workshop
+# Monitoring/Observability Hands-On:
 
-## Initial Steps
+1. We will start first with an environment check:
+    * [Setup the environment](labs/01_Setup-Env.md)
 
-Create a Confluent Cloud account : 
-https://confluent.cloud
+# ksqlDB Hands-On:
 
-Log in to the Confluent CLI
-```bash
-confluent login --save
-```
+1. We will start first with an environment check:
+    * [Setup the environment](labs/00_Setup-Env.md)
 
-Go to :
-```bash
-cd /home/ec2-user/Workshop_Monitoring_CC-main/ccloud-observability
-```
-```bash
-./start.sh
-```
-yes to all
+2. Labs Financial service
+    * [Payment Status Check](labs/01_usecase_finserv_1.md)
+    * [Stock price calculation with User defined functions](labs/02_usecase_finserv_2.md)
+    * [Create personalized banking promotions](labs/03_usecase_finserv_3.md)
 
-After some time you'll see:
-```bash
-Status: Downloaded newer image for lightbend/kafka-lag-exporter:0.5.5
-Creating kafka-lag-exporter              ... done
-Creating node-exporter                   ... done
-Creating ccloud-observability_producer_1 ... done
-Creating grafana                         ... done
-Creating ccloud-observability_consumer_1 ... done
-Creating prometheus                      ... done
 
-====== Login to Grafana at http://localhost:3000/ un:admin pw:password
-
-====== Query metrics in Prometheus at http://localhost:9090 (verify targets are being scraped at http://localhost:9090/targets/, may take a few minutes to start up)
-
-```
-If not please execute the following command:
-```bash
-./docker-compose up -d
-```
-
-continue with slides...
+Thanks a lot for attending
+Confluent Team
