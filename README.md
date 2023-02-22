@@ -8,6 +8,11 @@ This github project describes a Hands-on Workshop around Confluent and Confluent
 1. We will start first with an environment check:
     * [Setup the environment](labs/01_Setup-Env.md)
 
+# Stream Governance:
+
+1. Initial Setup of your Confluent Cloud environment:
+    * [Setup the environment](labs/02_Setup-Env.md)
+
 # ksqlDB Hands-On:
 
 1. We will start first with an environment check:

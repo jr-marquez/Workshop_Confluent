@@ -3,8 +3,6 @@
 Create a Confluent Cloud account : 
 https://confluent.cloud
 
-You can use https://temp-mail.org/es/ to generate random emails, please remember the email address. 
-
 Log in to the Confluent CLI
 ```bash
 confluent login --save
