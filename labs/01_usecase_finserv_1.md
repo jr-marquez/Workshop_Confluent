@@ -313,4 +313,4 @@ curl -X "POST" "http://localhost:8088/ksql" \
 END Lab 1 
 
 
-[go back to Agenda](https://github.com/jr-marquez/ksqldbWorkshop/blob/main/README.md#hands-on-agenda-and-labs)
+[go back to Agenda](https://github.com/jr-marquez/Workshop_Confluent/blob/main/README.md#confluent-hands-on-workshop)

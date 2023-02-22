@@ -1,7 +1,7 @@
 ## Initial Steps
 
-Create a Confluent Cloud account : 
-https://confluent.cloud
+In this exercise, you will be setting up a Confluent Cloud Cluster that you will be able to use for the rest of the course.
+
 
 Log in to the Confluent CLI
 ```bash
@@ -38,3 +38,5 @@ If not please execute the following command:
 ```
 
 continue with slides...
+
+[go back to Agenda](https://github.com/jr-marquez/Workshop_Confluent/blob/main/README.md#confluent-hands-on-workshop)

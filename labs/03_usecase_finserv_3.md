@@ -145,4 +145,4 @@ INSERT INTO customer_activity_stream (customer_id, activity_id, ip_address, acti
 ```
 
 
-[go back to Agenda](https://github.com/jr-marquez/ksqldbWorkshop/blob/main/README.md#hands-on-agenda-and-labs)
+[go back to Agenda](https://github.com/jr-marquez/Workshop_Confluent/blob/main/README.md#confluent-hands-on-workshop)

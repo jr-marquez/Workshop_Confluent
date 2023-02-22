@@ -105,5 +105,4 @@ Please have a look [how to scale](https://docs.ksqldb.io/en/latest/operate-and-d
 
 End lab10
 
-[go back to Agenda](https://github.com/ora0600/confluent-ksqldb-hands-on-workshop/blob/master/README.md#hands-on-agenda-and-labs)
-
+[go back to Agenda](https://github.com/jr-marquez/Workshop_Confluent/blob/main/README.md#confluent-hands-on-workshop)

@@ -88,5 +88,4 @@ Check the new row added to the topic and the schema mutation (versions)
 
 End lab4
 
-[go back to Agenda](https://github.com/jr-marquez/ksqldbWorkshop/blob/main/README.md#hands-on-agenda-and-labs)
-
+[go back to Agenda](https://github.com/jr-marquez/Workshop_Confluent/blob/main/README.md#confluent-hands-on-workshop)

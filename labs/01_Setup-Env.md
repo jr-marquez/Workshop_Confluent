@@ -40,3 +40,5 @@ If not please execute the following command:
 ```
 
 continue with slides...
+
+[go back to Agenda](https://github.com/jr-marquez/Workshop_Confluent/blob/main/README.md#confluent-hands-on-workshop)

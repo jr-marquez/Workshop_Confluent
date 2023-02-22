@@ -53,3 +53,5 @@ To fix the error:
 ```bash
 confluent kafka acl delete --service-account sa-j9vnd2 --operation write  --topic '*' --deny
 ```
+
+[go back to Agenda](https://github.com/jr-marquez/Workshop_Confluent/blob/main/README.md#confluent-hands-on-workshop)
