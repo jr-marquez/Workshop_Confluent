@@ -34,3 +34,5 @@ In this first part we will create a new environment isolated from the rest of th
 ![skip payment](img/skip.png)
 
 4. Give your cluster a name, and select Launch cluster.
+
+[go back to Agenda](https://github.com/jr-marquez/Workshop_Confluent/blob/main/README.md#confluent-hands-on-workshop)
