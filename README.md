@@ -8,8 +8,12 @@ This github project describes a Hands-on Workshop around Confluent and Confluent
 1. We will start first with an environment check:
     * [Setup the environment](labs/01_Setup-Env.md)
 
-2. Scenarios Related to the Producer
+2. Scenarios Related to the **Producer**
     * [Confluent Cloud unreachable](labs/01_ProducerCCunreachable.md)
+    * [Authorization Revoked](labs/01_ProducerAuthorizationRevoked.md)
+
+3. Scenarios Related to the **Consumer**
+    * [Increasing consumer lag](labs/01_ConsumerLag.md)
 
 # Stream Governance:
 
