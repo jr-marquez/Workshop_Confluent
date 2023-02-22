@@ -8,7 +8,7 @@ docker ps
 ```
 All container should be healthy and running.
 
-# Check Confluent Control Centeropen C3
+# Check Confluent Control Center
 Open URL in Browser
 * from your local machine connecting to cloud http://publicip:9021/
 

@@ -25,3 +25,10 @@ To fix the error:
 ```bash
 docker-compose up -d --scale producer=1
 ```
+
+Tier down the docker machines:
+```bash
+docker-compose down -v
+```
+
+[go back to Agenda](https://github.com/jr-marquez/Workshop_Confluent/blob/main/READMEmd#confluent-hands-on-workshop)
