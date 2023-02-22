@@ -8,6 +8,9 @@ This github project describes a Hands-on Workshop around Confluent and Confluent
 1. We will start first with an environment check:
     * [Setup the environment](labs/01_Setup-Env.md)
 
+2. Scenarios Related to the Producer
+    * [Confluent Cloud unreachable](labs/01_ProducerCCunreachable.md)
+
 # Stream Governance:
 
 1. Initial Setup of your Confluent Cloud environment:
