@@ -31,4 +31,4 @@ Tier down the docker machines:
 docker-compose down -v
 ```
 
-[go back to Agenda](https://github.com/jr-marquez/Workshop_Confluent/blob/main/READMEmd#confluent-hands-on-workshop)
+[go back to Agenda](https://github.com/jr-marquez/Workshop_Confluent/blob/main/README.md#confluent-hands-on-workshop)
