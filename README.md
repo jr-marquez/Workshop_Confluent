@@ -19,6 +19,8 @@ This github project describes a Hands-on Workshop around Confluent and Confluent
 
 1. Initial Setup of your Confluent Cloud environment:
     * [Setup the environment](labs/02_Setup-Env.md)
+2. Use of Schema Registry to have **trusted** data:
+    * [Schema Registry lab](labs/02_SR_lab.md)
 
 ### ksqlDB Hands-On:
 
