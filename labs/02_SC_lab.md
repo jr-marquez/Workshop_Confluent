@@ -25,7 +25,7 @@ run:
 
 4. Next, you'll be given an option to create a Free-Form or a Recommended tag. Select **Recommended.**
 
-![createdtag](img/createdtag.png)
+    ![createdtag](img/createdtag.png)
 
 5. Select the PII tag then hit the **Create** button
 
