@@ -208,24 +208,24 @@ services:
       ENABLE_ARCHIVELOG: 'true'
       ENABLE_TCPS: 'true'
       ORACLE_PWD: "Admin123"
-
-  #mysql:
+  
+  mysql:
     # *-----------------------------*
     # To connect to the DB: 
     #   docker-compose exec workshop-mysql bash -c 'mysql -u root -p$MYSQL_ROOT_PASSWORD'
     # *-----------------------------*
-    #image: mysql:8.0
-    #container_name: workshop-mysql
-    #ports:
-     # - 3306:3306
-    #environment:
-     #- MYSQL_ROOT_PASSWORD=confluent
+    image: mysql:8.0
+    container_name: workshop-mysql
+    ports:
+      - 3306:3306
+    environment:
+     - MYSQL_ROOT_PASSWORD=confluent
      # specify an empty database to be created, adn a user with all rights to it, on FIRST startup
-     #- MYSQL_DATABASE=db4
-     #- MYSQL_USER=mysqluser
-     #- MYSQL_PASSWORD=mysqlpass
-    #volumes:
-     #- ./data/mysql:/docker-entrypoint-initdb.d/
+     - MYSQL_DATABASE=db4
+     - MYSQL_USER=mysqluser
+     - MYSQL_PASSWORD=mysqlpass
+    volumes:
+     - ./data/mysql:/docker-entrypoint-initdb.d/
 
 
   control-center:
