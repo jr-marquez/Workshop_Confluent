@@ -18,11 +18,7 @@ run:
 
 2. On the right-hand side, you will see a section that includes **Schemas, Tags, and Business metadata** (Business metadata is disabled). Click the + button above Tags
 
-<img src="img/tag.png" width="150" height="150">
-
-<div style="width:60px ; height:60px">
-![tag](img/tag.png)
-<div>
+<img src="img/tag.png" width="200" height="150">
 
 
 3. On the next screen, select **Get Started.**
