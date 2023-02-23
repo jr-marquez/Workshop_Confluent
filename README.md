@@ -23,6 +23,8 @@ This github project describes a Hands-on Workshop around Confluent and Confluent
     * [Schema Registry lab](labs/02_SR_lab.md)
 3. Use of Stream Catalog to have **discoverable** data:
     * [Stream Catalog lab](labs/02_SC_lab.md)
+4. Use of Stream Lineage to have **observable** data:
+    * [Stream Lineage lab](labs/02_SL_lab.md)
 
 ### ksqlDB Hands-On:
 
