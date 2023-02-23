@@ -19,11 +19,12 @@ You can obtain the schema registry url by navigating to the Environment and view
     <img src="img/urlgov.png" width="200" height="350">
 
 3. Create API Key for Schema Registry and store the values , complete the **pom.xml**
+
     <img src="img/sr_key.png" width="200" height="350">
 
 4. Create API Keys for Confluent Cluster, inside the cluster settings and API Keys select **Create Key**
    
-    <img src="img/c_key.png" width="200" height="350">
+    <img src="img/c_key.png" width="350" height="350">
 
 5. Select Global Scope, download and save the info
 
