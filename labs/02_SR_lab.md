@@ -28,7 +28,7 @@ You can obtain the schema registry url by navigating to the Environment and view
 
 5. Select Global Scope, download and save the info
 
-![key sr](img/scopeKey.png)
+    <img src="img/scopeKey.png" width="350" height="350">
 
 6. Open the **src/main/resources/java.config** file.
 
@@ -52,7 +52,7 @@ use.latest.version=true
 
 You can obtain the Cluster URL by navigating to the **Cluster Overview > Cluster Settings**, and looking for the Bootstrap Server
 
-![boot](img/boot.png)
+    <img src="img/boot.png" width="350" height="150">
 
 ### Create a Topic
 
