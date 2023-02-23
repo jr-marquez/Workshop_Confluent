@@ -1,12 +1,24 @@
 # Set up the environment for KSQLDB Hands-on Workshop
 
-Login in via ssh to compute:
+Check if there are containers running
 ```bash
-ssh ec2-user@publicip
-cd ksqldbWorkshop-main/docker/
 docker ps
 ```
-All container should be healthy and running.
+If yes , please stop them with the following command:
+```bash
+docker stop $(docker ps -a -q)
+```
+
+We will switch to the ksqldb folder:
+
+```bash
+cd /home/ec2-user/ksqldbWorkshop/docker
+```
+and run :
+```bash
+docker-compose up -d
+```
+
 
 # Check Confluent Control Center
 Open URL in Browser
