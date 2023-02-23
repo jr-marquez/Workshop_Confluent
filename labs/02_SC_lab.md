@@ -17,8 +17,10 @@ run:
 1. Select your exercise Environment
 
 2. On the right-hand side, you will see a section that includes **Schemas, Tags, and Business metadata** (Business metadata is disabled). Click the + button above Tags
+<div style="width:60px ; height:60px">
+![tag](img/tag.png)
+<div>
 
-<img src="https://github.com/jr-marquez/Workshop_Confluent/tree/main/labs/img/tag.png" width="100" height="100">
 
 3. On the next screen, select **Get Started.**
 
