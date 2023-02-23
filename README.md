@@ -7,11 +7,9 @@ This github project describes a Hands-on Workshop around Confluent and Confluent
 
 1. We will start first with an environment check:
     * [Setup the environment](labs/01_Setup-Env.md)
-
 2. Scenarios Related to the **Producer**
     * [Confluent Cloud unreachable](labs/01_ProducerCCunreachable.md)
     * [Authorization Revoked](labs/01_ProducerAuthorizationRevoked.md)
-
 3. Scenarios Related to the **Consumer**
     * [Increasing consumer lag](labs/01_ConsumerLag.md)
 
@@ -33,9 +31,8 @@ This github project describes a Hands-on Workshop around Confluent and Confluent
 
 1. We will start first with an environment check:
     * [Setup the environment](labs/00_Setup-Env.md)
-
 2. Labs Financial service
-    * [Payment Status Check](labs/01_usecase_finserv_1.md)
+     * [Payment Status Check](labs/01_usecase_finserv_1.md)
     * [Stock price calculation with User defined functions](labs/02_usecase_finserv_2.md)
     * [Create personalized banking promotions](labs/03_usecase_finserv_3.md)
 
