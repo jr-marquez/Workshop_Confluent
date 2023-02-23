@@ -1,4 +1,4 @@
-## Initial Steps
+## Description
 
  We will define a basic schema for what the order should look like. Then, we will execute a small application that will push random order data into a topic with that schema. Later in the exercise, we will apply a small evolution to the schema and update the code accordingly.
 

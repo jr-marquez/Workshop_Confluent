@@ -21,6 +21,8 @@ This github project describes a Hands-on Workshop around Confluent and Confluent
     * [Setup the environment](labs/02_Setup-Env.md)
 2. Use of Schema Registry to have **trusted** data:
     * [Schema Registry lab](labs/02_SR_lab.md)
+3. Use of Stream Catalog to have **discoverable** data:
+    * [Stream Catalog lab](labs/02_SC_lab.md)
 
 ### ksqlDB Hands-On:
 

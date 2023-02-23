@@ -1,4 +1,4 @@
-## Initial Steps
+## Description
 
 In this exercise, you will be setting up a Confluent Cloud Cluster that you will be able to use for the rest of the course.
 
