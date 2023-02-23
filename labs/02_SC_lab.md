@@ -41,24 +41,24 @@ We'll start by navigating to our Schema using the Stream Catalog
 
 1. At the top of your screen you should see a search box for the Stream Catalog. 
 
-    <img src="img/search.png" width="300" height="250">
+    <img src="img/search.png" width="250" height="200">
 
 
 2. Search the Stream Catalog for OrderCreated. You should see multiple results.
 
-    <img src="img/sresult.png" width="300" height="250">
+    <img src="img/sresult.png" width="250" height="200">
 
 3. We want to add our tags to the **OrderCreated-value** schema. Select it from the list.
 
 4. We want to locate the field for email. You can do that by expanding the fields
 
-    <img src="img/fields.png" width="300" height="250">
+    <img src="img/fields.png" width="250" height="200">
 
 5. Once you have located the field, select the + button beside the field and add the **PII** tag.
 
 6. On the right hand side, you will see a place where you can tag individual versions of your record. Tag the current version using the **OrderService** tag.
 
-    <img src="img/schematag.png" width="300" height="250">
+    <img src="img/schematag.png" width="250" height="200">
 
 7. Try searching for the **PII** tag in the Stream Catalog.
 
