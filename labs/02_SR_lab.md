@@ -16,8 +16,7 @@ You will need to add your Cluster API credentials and your Schema Registry API c
 <schema.registry.apisecret>{{ SR_API_SECRET }}</schema.registry.apisecret>
 ```
 You can obtain the schema registry url by navigating to the Environment and viewing the details on the right hand side of the screen:
-
-![URL sr](img/urlgov.png)
+       <img src="img/urlgov.png" width="200" height="350">
 
 3. Create API Key for Schema Registry and store the values , complete the **pom.xml**
 
