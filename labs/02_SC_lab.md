@@ -18,14 +18,14 @@ run:
 
 2. On the right-hand side, you will see a section that includes **Schemas, Tags, and Business metadata** (Business metadata is disabled). Click the + button above Tags
 
-<img src="img/tag.png" width="200" height="150">
+    <img src="img/tag.png" width="200" height="150">
 
 
 3. On the next screen, select **Get Started.**
 
 4. Next, you'll be given an option to create a Free-Form or a Recommended tag. Select **Recommended.**
 
-    ![createdtag](img/createdtag.png)
+    <img src="img/createdtag.png" width="300" height="250">
 
 5. Select the PII tag then hit the **Create** button
 
@@ -41,23 +41,24 @@ We'll start by navigating to our Schema using the Stream Catalog
 
 1. At the top of your screen you should see a search box for the Stream Catalog. 
 
-![search](img/search.png)
+    <img src="img/search.png" width="300" height="250">
+
 
 2. Search the Stream Catalog for OrderCreated. You should see multiple results.
 
-![sresult](img/sresult.png)
+    <img src="img/sresult.png" width="300" height="250">
 
 3. We want to add our tags to the **OrderCreated-value** schema. Select it from the list.
 
 4. We want to locate the field for email. You can do that by expanding the fields
 
-![fields](img/fields.png)
+    <img src="img/fields.png" width="300" height="250">
 
 5. Once you have located the field, select the + button beside the field and add the **PII** tag.
 
 6. On the right hand side, you will see a place where you can tag individual versions of your record. Tag the current version using the **OrderService** tag.
 
-![schematag](img/schematag.png)
+    <img src="img/schematag.png" width="300" height="250">
 
 7. Try searching for the **PII** tag in the Stream Catalog.
 
