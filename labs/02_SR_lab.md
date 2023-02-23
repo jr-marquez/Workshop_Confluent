@@ -52,7 +52,7 @@ use.latest.version=true
 
 You can obtain the Cluster URL by navigating to the **Cluster Overview > Cluster Settings**, and looking for the Bootstrap Server
 
-    <img src="img/boot.png" width="350" height="150">
+<img src="img/boot.png" width="300" height="150">
 
 ### Create a Topic
 
