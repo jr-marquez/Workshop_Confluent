@@ -41,12 +41,12 @@ We'll start by navigating to our Schema using the Stream Catalog
 
 1. At the top of your screen you should see a search box for the Stream Catalog. 
 
-    <img src="img/search.png" width="250" height="200">
+    <img src="img/search.png" width="250" height="100">
 
 
 2. Search the Stream Catalog for OrderCreated. You should see multiple results.
 
-    <img src="img/sresult.png" width="250" height="200">
+    <img src="img/sresult.png" width="300" height="200">
 
 3. We want to add our tags to the **OrderCreated-value** schema. Select it from the list.
 
