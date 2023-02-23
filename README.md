@@ -25,6 +25,9 @@ This github project describes a Hands-on Workshop around Confluent and Confluent
     * [Stream Catalog lab](labs/02_SC_lab.md)
 4. Use of Stream Lineage to have **observable** data:
     * [Stream Lineage lab](labs/02_SL_lab.md)
+5. (Optional) Use Advanced Governance:
+    * [Advanced Governance lab](labs/02_AG_lab.md)
+
 
 ### ksqlDB Hands-On:
 
