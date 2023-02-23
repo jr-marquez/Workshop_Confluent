@@ -60,7 +60,7 @@ Next, we need to create a topic for our application to push messages into. Creat
 
 1. In the left-hand side navigation for your cluster, select Topics.
 
-    <img src="img/topic.png" width="150" height="300">
+    <img src="img/topic.png" width="200" height="300">
 
 2. Create a new topic.
 
@@ -127,7 +127,7 @@ Take a look at the schema.
 
 8. Using the left-hand navigation, select the **Schema registry.**
 
-    <img src="img/srmapp.png" width="150" height="300">
+    <img src="img/srmapp.png" width="200" height="300">
 
 Here, you should see that a Schema has been created named **OrderCreated-value.**
 
