@@ -263,7 +263,7 @@ AS SELECT
   ps.status, 
   ps.source_system 
 FROM enriched_payments ep 
-  LEFT JOIN payment_statuses ps WITHIN 1 HOUR ON ep.payment_id = ps.payment_id ;
+  LEFT JOIN payment_statuses ps WITHIN 1 HOUR GRACE PERIOD 2 MINUTES ON ep.payment_id = ps.payment_id ;
 ```
 ```bash
 ksql> describe payments_with_status;
