@@ -5,7 +5,7 @@ https://confluent.cloud
 
 You can use https://temp-mail.org/es/ to generate random emails, please remember the email address. 
 
-Log in to the Confluent CLI
+Log in to the Confluent CLI in the ssh terminal
 ```bash
 confluent login --save
 ```
@@ -36,7 +36,7 @@ Creating prometheus                      ... done
 ```
 If not please execute the following command:
 ```bash
-./docker-compose up -d
+docker-compose up -d
 ```
 
 continue with slides...
