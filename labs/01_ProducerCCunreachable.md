@@ -1,6 +1,13 @@
 ## Confluent Cloud Unreachable
 
 #### Description
+
+Login to grafana :
+<ip>:3000
+user: admin
+password: password
+
+
 This first scenario will introduce a blocker from the producer to Confluent Cloud
 
 *What metrics are used?*
