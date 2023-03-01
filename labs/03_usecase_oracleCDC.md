@@ -62,7 +62,9 @@ Lets verify that the connector is running
 ```bash
 curl -s -X GET -H 'Content-Type: application/json' http://localhost:8083/connectors/OracleCDC/status | jq
 ```
-Also check control center if the connector is running
+Also check control center if the connector is running. : http://yourpublicip:9021
+
+You should have 3 topics created related to the CDC, do you know which ones?
 
 Now lets start creating the Data Pipelines.
 
