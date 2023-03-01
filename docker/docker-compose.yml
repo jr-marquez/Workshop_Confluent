@@ -205,8 +205,8 @@ services:
       - ./oradata:/opt/oracle/oradata
     environment:
       TZ: "Spain/Madrid"
-      ENABLE_ARCHIVELOG: true
-      ENABLE_TCPS: true
+      ENABLE_ARCHIVELOG: "true"
+      ENABLE_TCPS: "true"
       ORACLE_PWD: "Admin123"
   
   mysql:
