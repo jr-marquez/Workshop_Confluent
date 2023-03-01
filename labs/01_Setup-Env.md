@@ -5,6 +5,8 @@ https://confluent.cloud
 
 You can use https://temp-mail.org/es/ to generate random emails, please remember the email address. 
 
+Go to your ssh terminal session 
+
 Log in to the Confluent CLI in the ssh terminal
 ```bash
 confluent login --save --no-browser

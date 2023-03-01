@@ -2,6 +2,12 @@
 
 In this exercise, you will be setting up a Confluent Cloud Cluster that you will be able to use for the rest of the course.
 
+If you don't have a Confluent Cloud account please do so:
+
+>Create a Confluent Cloud account : https://confluent.cloud
+>You can use https://temp-mail.org/es/ to generate random emails, please remember the email address.
+
+
 ### Create a New Environment
 In this first part we will create a new environment isolated from the rest of the course . 
 

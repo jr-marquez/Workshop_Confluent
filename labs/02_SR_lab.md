@@ -6,7 +6,15 @@
 
 You will need to add your Cluster API credentials and your Schema Registry API credentials in a couple of places
 
+Go to 
+```bash
+cd /home/ec2-user/governing-data-streams/exercises
+```
+
 1. Open the **pom.xml** file.
+```bash
+vi pom.xml
+```
 
 2. In the **properties** section you will find three blank propertie
 
@@ -15,6 +23,8 @@ You will need to add your Cluster API credentials and your Schema Registry API c
 <schema.registry.apikey>{{ SR_API_KEY }}</schema.registry.apikey>
 <schema.registry.apisecret>{{ SR_API_SECRET }}</schema.registry.apisecret>
 ```
+> you can edit the file with the i letter , once done (in order) : ESC --> : --> wq!
+
 You can obtain the schema registry url by navigating to the Environment and viewing the details on the right hand side of the screen:
     <img src="img/urlgov.png" width="200" height="350">
 
@@ -30,7 +40,7 @@ You can obtain the schema registry url by navigating to the Environment and view
 
     <img src="img/scopeKey.png" width="350" height="350">
 
-6. Open the **src/main/resources/java.config** file.
+6. Open the **src/main/resources/java.config** file inside /home/ec2-user/governing-data-streams/exercises
 
 note the use of the following settings:
 
@@ -40,6 +50,8 @@ use.latest.version=true
 ```
 
 7. Replace the following placeholders with the corresponding values
+
+> you can edit the file with the i letter , once done (in order) : ESC --> : --> wq!
 
 ```bash
 {{ CLUSTER_URL }}
