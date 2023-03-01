@@ -202,11 +202,11 @@ services:
       - "5000:5500"
     volumes:
       - ./scripts:/opt/oracle/scripts/startup
-      - ./oradata:/opt/oracle/oradata   
+      - ./oradata:/opt/oracle/oradata
     environment:
       TZ: "Spain/Madrid"
-      ENABLE_ARCHIVELOG: 'true'
-      ENABLE_TCPS: 'true'
+      ENABLE_ARCHIVELOG: true
+      ENABLE_TCPS: true
       ORACLE_PWD: "Admin123"
   
   mysql:
