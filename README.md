@@ -18,7 +18,7 @@ This github project describes a Hands-on Workshop around Confluent and Confluent
 1. Kafka Connect Plugins:
     * [Oracle - Read Data using CDC](labs/03_usecase_oracleCDC.md)
 2. Simple Message Transform (SMT):
-    * [Masking](labs/01_Setup-Env.md)
+    * [Masking](labs/03_usecase_oracleSMT.md)
 
 
 ### Stream Governance:
@@ -42,8 +42,6 @@ This github project describes a Hands-on Workshop around Confluent and Confluent
 2. Labs Financial service
      * [Payment Status Check](labs/02_usecase_finserv_1.md)
     * [Stock price calculation with User defined functions](labs/02_usecase_finserv_2.md)
-    * [Create personalized banking promotions](labs/02_usecase_finserv_3.md)
-
 
 Thanks a lot for attending
 Confluent Team
