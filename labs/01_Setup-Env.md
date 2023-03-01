@@ -7,7 +7,7 @@ You can use https://temp-mail.org/es/ to generate random emails, please remember
 
 Log in to the Confluent CLI in the ssh terminal
 ```bash
-confluent login --save
+confluent login --save --no-browser
 ```
 
 Go to :

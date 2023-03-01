@@ -13,6 +13,14 @@ This github project describes a Hands-on Workshop around Confluent and Confluent
 3. Scenarios Related to the **Consumer**
     * [Increasing consumer lag](labs/01_ConsumerLag.md)
 
+### Kafka Connect Hands-On:
+
+1. Kafka Connect Plugins:
+    * [Oracle - Read Data using CDC](labs/03_usecase_oracleCDC.md)
+2. Simple Message Transform (SMT):
+    * [Masking](labs/01_Setup-Env.md)
+
+
 ### Stream Governance:
 
 1. Initial Setup of your Confluent Cloud environment:

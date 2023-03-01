@@ -3,7 +3,7 @@
 #### Description
 
 Login to grafana :
-<ip>:3000
+http://publicip:3000/
 user: admin
 password: password
 
