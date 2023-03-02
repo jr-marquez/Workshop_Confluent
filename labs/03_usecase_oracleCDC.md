@@ -24,6 +24,8 @@ select * from "C##MYUSER".CUSTOMERS;
 select count(*) from "C##MYUSER".TRANSACTIONS;
 ```
 
+## Oracle CDC Configuration
+
 Now we are going to create the connector
 
 ```bash
@@ -70,6 +72,8 @@ curl -s -X GET -H 'Content-Type: application/json' http://localhost:8083/connect
 Also check control center if the connector is running. : **http://yourpublicip:9021**
 
 You should have 3 topics created related to the CDC, do you know which ones?
+
+## Data Pipelines
 
 Now lets start creating the Data Pipelines.
 
