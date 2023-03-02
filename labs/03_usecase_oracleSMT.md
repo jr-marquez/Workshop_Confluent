@@ -14,7 +14,7 @@ curl -s -X DELETE -H 'Content-Type: application/json' http://localhost:8083/conn
 ```
 
 Check again if it is running and also go to Control Center --> Connect (you must have 3)
-Delete the topics redo-log-topic, ORCLCDB.C__MYUSER.CUSTOMER and ORCLCDB.C__MYUSER.TRANSACTIONS
+Delete the topics redo-log-topic, ORCLCDB.C__MYUSER.CUSTOMERS and ORCLCDB.C__MYUSER.TRANSACTIONS
 
 Lets mask the customer information using transforms:
 
@@ -33,10 +33,10 @@ Lets mask the customer information using transforms:
 Lets include this parameters in the connector:
 
 ```bash
-curl -s -X PUT -H 'Content-Type: application/json'  http://localhost:8083/connectors/OracleCDC/config -d '{      
+curl -s -X PUT -H 'Content-Type: application/json'  http://localhost:8083/connectors/OracleCDCMask/config -d '{      
      			"connector.class": "io.confluent.connect.oracle.cdc.OracleCdcSourceConnector",
-     			"name": "OracleCDC",
-          "tasks.max":3,
+     			"name": "OracleCDCMask",
+          "tasks.max":2,
           "key.converter": "io.confluent.connect.avro.AvroConverter",
           "key.converter.schema.registry.url": "http://schema-registry:8081",
           "value.converter": "io.confluent.connect.avro.AvroConverter",
@@ -66,10 +66,10 @@ curl -s -X PUT -H 'Content-Type: application/json'  http://localhost:8083/connec
           "topic.creation.default.replication.factor": 1,
           "topic.creation.default.partitions": 1,
           "topic.creation.default.cleanup.policy": "delete",
-          "transforms": "ACCOUNT_TYPE_ORIGIN",
-          "transforms.ACCOUNT_TYPE_ORIGIN.type": "org.apache.kafka.connect.transforms.MaskField$Value",
-          "transforms.ACCOUNT_TYPE_ORIGIN.fields": "ACCOUNT_TYPE_ORIGIN",
-          "transforms.ACCOUNT_TYPE_ORIGIN.replacement": "******"
+          "transforms": "EMAIL",
+          "transforms.EMAIL.type": "org.apache.kafka.connect.transforms.MaskField$Value",
+          "transforms.EMAIL.fields": "EMAIL",
+          "transforms.EMAIL.replacement": "******"
   }'
 ```
 got to ksqldb:
@@ -78,7 +78,14 @@ docker exec -it workshop-ksqldb-cli ksql http://ksqldb-server:8088
 ```
 and check if the masking is applied to the column:
 ```bash
-print 'ORCLCDB.C__MYUSER.TRANSACTIONS';
+print 'ORCLCDB.C__MYUSER.CUSTOMERS' from beginning limit 1;
+```
+
+and also check the table created (the joins will need to be recreated.)
+
+```bash
+ksql> set 'auto.offset.reset'='earliest';
+select * from CUSTOMERS_CDC_TABLE emit changes;
 ```
 
 End

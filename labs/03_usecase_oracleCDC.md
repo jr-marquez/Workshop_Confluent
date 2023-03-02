@@ -1,8 +1,14 @@
 ## Initial Steps
 
-In your ssh terminal .
+In your ssh terminal **ssh ec2-user@<PublicIP>**
 
-Check the connector plugins installed in Connect
+Go to and start the docker environment
+```bash
+cd /home/ec2-user/ksqldbWorkshop/docker
+docker-compose up -d
+```
+
+After a couple of minutes check the connector plugins installed in the Kafka Connect Cluster
 ```bash
 curl -s -X GET -H 'Content-Type: application/json' http://localhost:8083/connector-plugins | jq '.'
 ```
@@ -55,14 +61,13 @@ curl -s -X PUT -H 'Content-Type: application/json'  http://localhost:8083/connec
           "topic.creation.default.partitions": 1,
           "topic.creation.default.cleanup.policy": "delete"
   }'
-
 ```
 
 Lets verify that the connector is running
 ```bash
 curl -s -X GET -H 'Content-Type: application/json' http://localhost:8083/connectors/OracleCDC/status | jq
 ```
-Also check control center if the connector is running. : http://yourpublicip:9021
+Also check control center if the connector is running. : **http://yourpublicip:9021**
 
 You should have 3 topics created related to the CDC, do you know which ones?
 
@@ -173,7 +178,7 @@ Or with a PULL query
 select * from total_amount_customer where ID_ORIGIN_TRX=1;
 ```
 
-Check control center to see the final pipe
+Check control center to see the final Pipeline, Connector and Topics
 
 End
 
