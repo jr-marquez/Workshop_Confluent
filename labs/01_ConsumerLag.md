@@ -26,7 +26,7 @@ To fix the error:
 docker-compose up -d --scale producer=1
 ```
 
-Tier down the docker machines:
+**Tier down the docker machines:**
 ```bash
 docker-compose down -v
 ```
