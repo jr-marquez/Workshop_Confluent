@@ -1,6 +1,6 @@
 # Set up the environment for KSQLDB Hands-on Workshop
 
-Check if there are containers running
+Check if there are containers running **ONLY IF YOU DID PREVIOUSLY THE MONITORING WORKSHOP**
 ```bash
 docker ps
 ```
