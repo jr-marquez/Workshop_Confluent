@@ -100,10 +100,10 @@ ksql> describe connector source_dbz_mysql;
 ksql> print 'workshop.demo.CUSTOMERS-cdc' from beginning;
 ```
 ```bash
-CREATE STREAM customers_cdc WITH (kafka_topic='workshop.demo.CUSTOMERS-cdc', value_format='avro');
+CREATE STREAM customerscdc WITH (kafka_topic='workshop.demo.CUSTOMERS-cdc', value_format='avro');
 ```
 ```bash
-ksql> describe customers_cdc;
+ksql> describe customerscdc;
 ksql> exit
 ```
 Check Schema Registry. What did the connector create:
@@ -141,7 +141,7 @@ select after->id as id,
        after->email as email, 
        after->gender as gender, 
        after->status360 as status360 
-from customers_cdc 
+from customerscdc 
 partition by after->id; 
 ```
 ```bash
