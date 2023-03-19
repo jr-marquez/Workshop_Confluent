@@ -257,7 +257,7 @@ services:
     hostname: mongo
     container_name: mongo
     ports:
-     # - "27017:27017"
+      - "27017:27017"
     environment:
       MONGO_INITDB_ROOT_USERNAME: mongo-user
       MONGO_INITDB_ROOT_PASSWORD: mongo-pw
