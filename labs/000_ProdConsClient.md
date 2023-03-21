@@ -46,6 +46,8 @@ Now lets Read the messages created. Then press ctrl+c to stop
 ```bash
 confluent kafka topic consume -b test --api-key <API key> --api-secret <API secret>
 ```
+Check what happened on the cloud.
+
 
 End of lab
 

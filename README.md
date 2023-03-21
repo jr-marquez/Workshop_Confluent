@@ -48,9 +48,10 @@ This github project describes a Hands-on Workshop around Confluent and Confluent
 2. Labs Financial service
     * [Payment Status Check](labs/02_usecase_finserv_1.md)
     * [Stock price calculation with User defined functions](labs/02_usecase_finserv_2.md)
-2. Lab eCommerce and Retail
+3. Lab eCommerce and Retail
     * [ETL for realtime inventory](labs/04_usecase_realtime_inventory_ETL.md)
-    * [Stock price calculation with User defined functions](labs/02_usecase_finserv_2.md)
+4. Stream Designer 
+    * [Quick Start](labs/05_QuickStartSD.md)
 
 Thanks a lot for attending
 Confluent Team
