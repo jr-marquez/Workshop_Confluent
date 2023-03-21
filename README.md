@@ -1,7 +1,11 @@
 # Confluent Hands-on Workshop
 This github project describes a Hands-on Workshop around Confluent and Confluent Cloud. The structure of the Hands-on is as followed
   * Explaining and Introduce 
-  * Labs: Get to know the environment and exercise 
+  * Labs: Get to know the environment and exercise
+
+### Initial Setup Cloud
+
+1. [Setup the environment](labs/000_Setup-Env.md)
 
 ### Monitoring/Observability Hands-On:
 
@@ -43,7 +47,7 @@ This github project describes a Hands-on Workshop around Confluent and Confluent
     * [Payment Status Check](labs/02_usecase_finserv_1.md)
     * [Stock price calculation with User defined functions](labs/02_usecase_finserv_2.md)
 2. Lab eCommerce and Retail
-    * [Payment Status Check](labs/04_usecase_realtime_inventory_ETL.md)
+    * [ETL for realtime inventory](labs/04_usecase_realtime_inventory_ETL.md)
     * [Stock price calculation with User defined functions](labs/02_usecase_finserv_2.md)
 
 Thanks a lot for attending
