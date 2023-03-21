@@ -6,6 +6,8 @@ This github project describes a Hands-on Workshop around Confluent and Confluent
 ### Initial Setup Cloud
 
 1. [Setup the environment](labs/000_Setup-Env.md)
+2. We will start with some console checks:
+    * [Producer/Consumer client](labs/000_ProdConsClient.md)
 
 ### Monitoring/Observability Hands-On:
 
