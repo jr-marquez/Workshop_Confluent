@@ -5,6 +5,8 @@ To use Stream Designer for creating pipelines, the following prerequisites must 
 * A ksqlDB cluster
 * Sufficient permissions to create pipelines
 
+**IMPORTANT** YOU CAN GO TO STEP 4 IF YOU ALREADY DID THE PREVIOUS EXERCISE
+
 ### Step 1: Create a pipeline project
 
 A Stream Designer pipeline project defines all the components that are deployed for an application
