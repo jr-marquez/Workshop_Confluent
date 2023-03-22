@@ -3,6 +3,7 @@
 Switch to folder:
 ```bash
 cd /home/ec2-user/ksqldbWorkshop/docker
+docker-compose up -d
 ```
 
 
