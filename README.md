@@ -52,6 +52,8 @@ This github project describes a Hands-on Workshop around Confluent and Confluent
     * [ETL for realtime inventory](labs/04_usecase_realtime_inventory_ETL.md)
 4. Stream Designer 
     * [Quick Start](labs/05_QuickStartSD.md)
+    * [Joins](labs/05_JoinSD.md)
+    * [Aggregations](labs/05_AggSD.md)
 
 Thanks a lot for attending
 Confluent Team
