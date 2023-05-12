@@ -1,6 +1,6 @@
 {
   "name" : "kafka-connect-oracle-cdc",
-  "version" : "2.1.0",
+  "version" : "2.6.0",
   "title" : "Kafka Connect OracleCDC Connector",
   "description" : "The Confluent Oracle CDC Source Connector is a Premium Confluent connector and requires an additional subscription, specifically for this connector.\n<p>The Oracle CDC Source Connector captures changes in an Oracle database and writes the changes as change event records in Kafka topics. The connector uses Oracle LogMiner to read the database's redo log and requires supplemental logging with \"ALL\" columns. The connector supports Oracle 11g, 12c, 18c, and 19c. It supports both container databases and non-container databases, and supports databases running on-premises or in the cloud.\n<p>The connector can be configured to capture a subset of the tables in a single Oracle database. The captured tables are all tables accessible by the user that match an \"include\" pattern and do not match a separate \"exclude\" pattern. The connector can optionally begin by taking a snapshot of each of the tables, to capture all rows in their current state before changes are recorded. The connector then continues by capturing the individual row-level changes committed by database users. It writes these change events to Kafka topics using flexible table-to-topic mapping. By default, all change events from each table are written to a separate Kafka topic.",
   "owner" : {
@@ -24,5 +24,5 @@
     "url" : "https://www.confluent.io/software-evaluation-license"
   } ],
   "component_types" : [ "source" ],
-  "release_date" : "2022-06-27"
+  "release_date" : "2023-03-24"
 }
