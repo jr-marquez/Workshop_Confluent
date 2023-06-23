@@ -36,3 +36,6 @@ terraform/aws/.terraform.lock.hcl
 terraform_old
 docker/.env
 docker/delta_configs
+docker/oradata
+docker/docker-compose-oracleTest.yml
+docker/docker-compose-replicator.yml
