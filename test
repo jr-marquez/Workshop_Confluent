@@ -1,2 +1,6 @@
 http://mkto-k0023.com/dc/5w4dZQ4HH6-8aj1DCgc3u9vYtrgywd1eUxD2vj1MTEGf_y395O4_4sxM29-hnjTajbtq4_19QZkqnYh-UBjqLh3ViiR4d2qDydzriou3MyrMf2vZ4EBW0Uh9nkRp6-qsOOmhebP8CVSxKwHANlODKw==/MzQ3LUlBVC02NzcAAAGNxlqc-2Y4tIP33hHvQHv4AM3o_VrZre6OaZn4Qq0Z9-54mH7iQRWi3E7hwO3w9JLNX8faBh4=
 http://mkto-k0023.com/dc/5w4dZQ4HH6-8aj1DCgc3u9vYtrgywd1eUxD2vj1MTEGf_y395O4_4sxM29-hnjTajbtq4_19QZkqnYh-UBjqLh3ViiR4d2qDydzriou3Myq3iIxhAWtNSd5HBhpd4B_y/MzQ3LUlBVC02NzcAAAGNxlqc-2Y4tIP33hHvQHv4AM3o_VrZre6OaZn4Qq0Z9-54mH7iQRWi3E7hwO3w9JLNX8faBh4=
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends libwebkit2gtk-4.0-37 libswt-gtk-4-java libswt-cairo-gtk-4-jni libswt-webkit-gtk-4-jni && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
